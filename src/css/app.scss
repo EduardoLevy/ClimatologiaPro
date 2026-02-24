@@ -1,1 +1,27 @@
-// app global css in SCSS form
+@import "tailwindcss";
+
+/* 
+ * All premium styles are now handled via Tailwind classes in JSX 
+ * to ensure maximum compatibility with Tailwind v4 PostCSS processing.
+ */
+
+:root {
+  --q-primary: #3b82f6;
+}
+
+body {
+  @apply antialiased text-slate-900 bg-slate-50;
+  overflow-x: hidden;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full backdrop-blur-md;
+}

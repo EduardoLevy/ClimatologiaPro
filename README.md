@@ -1,60 +1,42 @@
-# Weather App Vue 🌦️
+# Climatologia Pro 🌍✨
 
-Este projeto de **Previsão do Tempo** foi desenvolvido utilizando **Vue.js**, **Quasar Framework** e a **API do WeatherAPI**. Ele permite que os usuários consultem a previsão do tempo de diferentes cidades, fornecendo informações úteis sobre o clima.
+Uma aplicação de previsão do tempo imersiva e moderna, construída com **Vue 3**, **Quasar**, **Pinia** e **Tailwind CSS v4**.
 
- ## 🚀 Funcionalidades
+![image](https://images.unsplash.com/photo-1592210633468-d05bd395bc5_?q=80&w=2070&auto=format&fit=crop)
 
- - **Consulta de clima**: Pesquise o clima atual de qualquer cidade.  
- - **Exibição detalhada**: Visualize informações como:
-   - Temperatura  
-   - Condição do tempo  
-   - Umidade  
-   - Velocidade do vento  
- - **Interface amigável**: Cards coloridos e representações visuais que ajudam a identificar diferentes condições climáticas.
+## 🚀 Destaques
 
- ## 💻 Como usar
+- **Dashboard Imersivo**: Interface em tela cheia com fundos dinâmicos que refletem o clima atual.
+- **Open-Meteo API**: Integração com a nova API de alto desempenho, gratuita e sem necessidade de chaves.
+- **Geocoding Integrado**: Encontre qualquer cidade do mundo instantaneamente através de busca textual.
+- **Glassmorphism Design**: Interface premium utilizando as últimas tendências de design com desfoque e transparência.
+- **State Management**: Gerenciamento de estado global ultra-rápido com Pinia.
 
- ### 🔧 Requisitos
+## 🛠️ Tecnologias
 
- Antes de começar, você precisa ter o seguinte instalado no seu computador:
+- [Vue 3](https://vuejs.org/) (Composition API + JSX)
+- [Quasar Framework](https://quasar.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Axios](https://axios-http.com/)
+- [Open-Meteo API](https://open-meteo.com/)
 
- - **Node.js** (versão 14 ou superior)  
- - **npm** (gerenciador de pacotes)
+## 📦 Instalação
 
- ### 🚶‍♂️ Passos para rodar o projeto:
+```bash
+# Instalar dependências
+npm install
 
- 1. **Clone o repositório**:
+# Iniciar ambiente de desenvolvimento
+npm run dev
 
-    ```bash
-    git clone https://github.com/EduardoLevy/weather-app-vue.git
-    ```
+# Gerar build de produção
+npm run build
+```
 
- 2. **Acesse o diretório do projeto**:
+## 📄 Licença
 
-    ```bash
-    cd weather-app-vue
-    ```
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
- 3. **Instale as dependências do projeto**:
-
-    ```bash
-    npm install
-    ```
-
- 4. **Inicie o servidor de desenvolvimento**:
-
-    ```bash
-    npm run serve
-    ```
-
- 5. **Abra o navegador e acesse**:
-
-    ```
-    http://localhost:8080
-    ```
-
- ## 🛠 Tecnologias utilizadas
-
- - **Vue.js**: Framework JavaScript progressivo para a construção de interfaces de usuário.  
- - **Quasar Framework**: Framework Vue.js para a criação de aplicativos responsivos e de alto desempenho.  
- - **WeatherAPI**: API para obter informações meteorológicas.
+---
+Desenvolvido por Eduardo Levy
