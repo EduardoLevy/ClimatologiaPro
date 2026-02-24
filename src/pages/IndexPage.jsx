@@ -1,15 +1,13 @@
 import { defineComponent } from 'vue'
-import { QPage } from 'quasar'
-import WeatherCard from 'components/WeatherCard'
+import WeatherCard from '../components/WeatherCard'
 
 export default defineComponent({
   name: 'IndexPage',
   setup() {
     return () => (
-      <QPage class="flex">
+      <main class="flex min-h-screen">
         <WeatherCard />
-      </QPage>
+      </main>
     )
-
   }
 })
